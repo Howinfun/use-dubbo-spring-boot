@@ -1,0 +1,17 @@
+dubbo:
+  application:
+    name: mydubboservice
+    id: mydubboservice
+  ## ProtocolConfig
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: cn.xmjbq.service.impl
+  registry:
+    address: zookeeper://xxx.xx.xxx:2181
+  provider:
+    validation: true
+#server:
+  #port: 8888

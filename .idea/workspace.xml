@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="705f0b75-8bba-4898-b4cd-024c902fea28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/src/main/java/cn/xmjbq/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/src/main/java/cn/xmjbq/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/target/classes/cn/xmjbq/UserServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-UserService/target/classes/cn/xmjbq/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/common/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/common/ResponseJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/target/classes/cn/xmjbq/common/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/target/classes/cn/xmjbq/common/ResponseJson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/target/classes/cn/xmjbq/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-api/target/classes/cn/xmjbq/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/src/main/java/cn/xmjbq/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/src/main/java/cn/xmjbq/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/target/classes/cn/xmjbq/WebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmjbq-web/target/classes/cn/xmjbq/controller/UserController.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/xmjbq-api/target/" />
+    <ignored path="$PROJECT_DIR$/xmjbq-UserService/target/" />
+    <ignored path="$PROJECT_DIR$/xmjbq-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1050978494">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1111" />
+          <entry key="properties" value="265" />
+          <entry key="xml" value="715" />
+          <entry key="yml" value="216" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1111" />
+          <entry key="Properties" value="265" />
+          <entry key="XML" value="715" />
+          <entry key="YAML" value="216" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="factories" value="1" />
+          <entry key="java" value="60" />
+          <entry key="properties" value="11" />
+          <entry key="xml" value="25" />
+          <entry key="yml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="60" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="25" />
+          <entry key="YAML" value="10" />
+          <entry key="spring.factories" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1374348139">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="40" />
+          <entry key="xml" value="4" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="40" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="11" />
+          <entry key="java" value="151" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="151" />
+          <entry key="PLAIN_TEXT" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1778425379">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="21" />
+          <entry key="yml" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="21" />
+          <entry key="YAML" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="properties" value="2" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmjbq-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmjbq-UserService/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xmjbq-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>QuorumMaj</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/xmjbq-api/src/main/java/xmjbq/pojo/XmjbqDownload.java" />
+        <option value="$PROJECT_DIR$/xmjbq-web/src/main/java/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xmjbq-api/src/main/java/xmjbq/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/xmjbq-web/src/main/java/cn/xmjbq/controller/WebApplication.java" />
+        <option value="$PROJECT_DIR$/xmjbq-UserService/src/main/java/UserServiceApplication.java" />
+        <option value="$PROJECT_DIR$/xmjbq-web/src/main/java/cn/xmjbq/WebApplication.java" />
+        <option value="$PROJECT_DIR$/xmjbq-web/src/main/resources/666.properties" />
+        <option value="$PROJECT_DIR$/xmjbq-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/xmjbq-UserService/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/xmjbq-UserService/src/main/java/cn/xmjbq/UserServiceApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xmjbq-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/User.java" />
+        <option value="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqCardVo.java" />
+        <option value="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/xmjbq-web/src/main/java/cn/xmjbq/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/xmjbq-UserService/src/main/java/cn/xmjbq/service/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/common/ResponseJson.java" />
+        <option value="$PROJECT_DIR$/xmjbq-UserService/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xmjbq-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xmjbq-UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/xmjbq-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven3.5.0" />
+        <option name="userSettingsFile" value="E:\IT\maven3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-49" />
+    <option name="y" value="37" />
+    <option name="width" value="1939" />
+    <option name="height" value="988" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Application Servers</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringBootApplicationProperties</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-UserService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-UserService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Star" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Star" type="462c0819:PsiDirectoryNode" />
+              <item name="xmjbq-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="dubbo&#9;FILE&#9;jar://D:/Maven/.m2/repository/com/alibaba/spring/boot/dubbo-spring-boot-starter/2.0.0/dubbo-spring-boot-starter-2.0.0.jar!/com/alibaba/dubbo/spring/boot/DubboProviderAutoConfiguration.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548762181713" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5992647" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.xmjbq" />
+      <recent name="cn" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xmjbq.service" />
+      <recent name="impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IT\0、SpringBootDemo\Star\xmjbq-UserService\src\main\resources" />
+      <recent name="E:\IT\0、SpringBootDemo\Star\xmjbq-web\src\main\resources" />
+      <recent name="D:\XMJBQ\branches\Star\xmjbq-api\src\main\java\cn\xmjbq" />
+      <recent name="D:\XMJBQ\branches\Star\xmjbq-api\src\main\java\cn\xmjbq\pojo" />
+      <recent name="D:\XMJBQ\trunk\Star\xmjbq-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebApplication">
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xmjbq-UserService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xmjbq.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xmjbq-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xmjbq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xmjbq.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Howinfun\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="705f0b75-8bba-4898-b4cd-024c902fea28" name="Default Changelist" comment="" />
+      <created>1548238901854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548238901854</updated>
+      <workItem from="1548238904338" duration="4746000" />
+      <workItem from="1548243675019" duration="4882000" />
+      <workItem from="1548252637174" duration="4165000" />
+      <workItem from="1548303654759" duration="6122000" />
+      <workItem from="1548318892819" duration="1342000" />
+      <workItem from="1548320301550" duration="6938000" />
+      <workItem from="1548419251908" duration="1837000" />
+      <workItem from="1548469996421" duration="3112000" />
+      <workItem from="1548482466876" duration="3499000" />
+      <workItem from="1548566245260" duration="128000" />
+      <workItem from="1548657168506" duration="1494000" />
+      <workItem from="1548762081272" duration="128000" />
+      <workItem from="1548763025379" duration="92000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38485000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-49" y="37" width="1939" height="988" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43218392" visible="true" weight="0.31440815" />
+      <window_info id="Structure" order="1" sideWeight="0.5678161" side_tool="true" weight="0.23620781" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5678161" side_tool="true" weight="0.29856852" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5480769" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28846154" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969325" weight="0.2247446" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.328125" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32741117" />
+      <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49857754" weight="0.32614943" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32690126" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030675" side_tool="true" weight="0.44796956" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2752404" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32880434" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" weight="0.20788044" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Statistic" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24955648" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32998225" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43218392" visible="true" weight="0.21424745" />
+      <window_info id="Structure" order="1" sideWeight="0.5678161" side_tool="true" weight="0.23620781" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5678161" side_tool="true" weight="0.29856852" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5480769" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28846154" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969325" weight="0.2247446" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.328125" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32741117" />
+      <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49857754" weight="0.32614943" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32690126" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030675" side_tool="true" weight="0.44796956" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2752404" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32880434" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" weight="0.20788044" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Statistic" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24955648" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32998225" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/xmjbq/service/GameService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/spring/boot/dubbo-spring-boot-starter/2.0.0/dubbo-spring-boot-starter-2.0.0.jar!/com/alibaba/dubbo/spring/boot/DubboProviderAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="41" column="84" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/spring/boot/dubbo-spring-boot-starter/2.0.0/dubbo-spring-boot-starter-2.0.0.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-UserService/src/main/resources/666.properties" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-web/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqCard.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqGuideNotice.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqReadInfoContentVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/JsSysDictData.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqLoanStructureVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDayTaskVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDownload.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDownloadIOSUser.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDownloadReward.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqGameReward.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDownloadPublic.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqGame.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqGameBase.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqInviteFriendsVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqLoanUser.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqBanner.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDayTask.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqHomePageConfigure.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqGameVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqSwitchConfigure.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqUserAmoyMoneyDetailVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqUserVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDownloadVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqInviteReward.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqAmoyEnergyTaskUser.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqReadInfoContent.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/GameQuery.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDownloadIOS.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqCardVo.java" />
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/common/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/XmjbqDownloadAndroidUser.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-UserService/src/main/java/cn/xmjbq/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/common/ResponseJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/src/main/java/cn/xmjbq/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-UserService/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-UserService/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-UserService/src/main/java/cn/xmjbq/UserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-web/src/main/java/cn/xmjbq/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-web/src/main/java/cn/xmjbq/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-UserService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmjbq-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5992647" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery-1.9.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.44577205" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>xmjbq-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.44577205" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5992647" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

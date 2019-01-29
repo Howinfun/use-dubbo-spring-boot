@@ -1,0 +1,19 @@
+dubbo:
+  application:
+    name: mydubboconsumer
+    id: mydubboconsumer
+  ## ProtocolConfig
+  #protocol:
+  #  id: dubbo
+  #  name: dubbo
+  #  port: 20880
+  scan:
+    base-packages: cn.xmjbq.controller
+  registry:
+    address: zookeeper://47.107.129.42:2181
+  consumer:
+    validation: true
+    retries: 0
+
+server:
+  port: 8889
